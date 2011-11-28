@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="hello" class="com.deepish.vannilla.HelloWorld">
+            <result name="SUCCESS">/success.jsp</result>
+        </action>
+    </package>
+</struts>
